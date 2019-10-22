@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 70px;
+	color: grey;
+	font-family: 'Caveat', cursive;
+	text-shadow: 6px 1px 8px #EEF219;
+	text-align: center;
+	width: 100%;
+
+	margin: 23px 0;
+}
+
+ body {
+ 
+ 	background-image: url(../img/fon2.jpg);
+ 	
+
+ }
+
+ .main {
+	width: 90%;
+	max-width: 1000px;
+	
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+ }
+
+ .photo {
+ 	width: calc(20vw - 10px);
+ 	height: calc((35vw - 40px) / 16 * 9);
+
+ 	max-width: 480px;
+ 	max-height: 400px;
+
+ 	background-color: #8e36d6;
+ 	
+ 	-webkit-box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.82); 
+	box-shadow: 5px 6px 13px -2px rgba(0,0,0,0.82);
+ }
+
+.photo1 {
+ 	background-image: url(../img/img1.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo2 {
+ 	background-image: url(../img/img2.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo3 {
+ 	background-image: url(../img/img3.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo4 {
+ 	background-image: url(../img/img4.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo5 {
+ 	background-image: url(../img/img5.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo6 {
+ 	background-image: url(../img/img6.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo7 {
+ 	background-image: url(../img/img7.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo8 {
+ 	background-image: url(../img/img8.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo9 {
+ 	background-image: url(../img/img9.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo10 {
+ 	background-image: url(../img/img10.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ 
+ .photo11 {
+ 	background-image: url(../img/img11.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .photo12 {
+ 	background-image: url(../img/img12.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ 
+
+
+ .img_link {
+ 	display: block;
+ 	opacity: 0.75;
+ 	margin: 20px;
+
+	transition: opacity 0.4s ease-in, transform 0.5s ease-out, box-shadow 0.4s ease-in;
+ }
+
+ .img_link:hover {
+ 	opacity: 1;
+
+ 	transform: scale(1.4) rotate(375deg);
+ 	z-index: 10;
+ 	box-shadow: 0 0 200px 1000px rgba(0,0,0,0.4);
+ }
